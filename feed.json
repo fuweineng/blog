@@ -1,0 +1,27 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "符伟能的网络日志",
+    "description": "",
+    "home_page_url": "https://fuweineng.github.io/blog",
+    "feed_url": "https://fuweineng.github.io/blog/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "符伟能"
+    },
+    "items": [
+        {
+            "id": "https://fuweineng.github.io/blog/publii-shi-yi-ge-hao-de-ruan-jian-ma.html",
+            "url": "https://fuweineng.github.io/blog/publii-shi-yi-ge-hao-de-ruan-jian-ma.html",
+            "title": "publii 是一个好的软件吗？",
+            "summary": "正如你所看到的，应该是的",
+            "content_html": "<p>正如你所看到的，应该是的</p>",
+            "author": {
+                "name": "符伟能"
+            },
+            "tags": [
+            ],
+            "date_published": "2025-10-08T22:34:49+08:00",
+            "date_modified": "2025-10-08T22:34:49+08:00"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>符伟能的网络日志</title>
+    <link href="https://fuweineng.github.io/blog/feed.xml" rel="self" />
+    <link href="https://fuweineng.github.io/blog" />
+    <updated>2025-10-08T22:34:49+08:00</updated>
+    <author>
+        <name>符伟能</name>
+    </author>
+    <id>https://fuweineng.github.io/blog</id>
+
+    <entry>
+        <title>publii 是一个好的软件吗？</title>
+        <author>
+            <name>符伟能</name>
+        </author>
+        <link href="https://fuweineng.github.io/blog/publii-shi-yi-ge-hao-de-ruan-jian-ma.html"/>
+        <id>https://fuweineng.github.io/blog/publii-shi-yi-ge-hao-de-ruan-jian-ma.html</id>
+
+        <updated>2025-10-08T22:34:49+08:00</updated>
+            <summary>
+                <![CDATA[
+                    正如你所看到的，应该是的
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>正如你所看到的，应该是的</p>
+            ]]>
+        </content>
+    </entry>
+</feed>
