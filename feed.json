@@ -10,6 +10,18 @@
     },
     "items": [
         {
+            "id": "https://blog.fuweineng.com/qi-shang-shen-han-zheqi-xia-bi-fo-lao.html",
+            "url": "https://blog.fuweineng.com/qi-shang-shen-han-zheqi-xia-bi-fo-lao.html",
+            "title": "其上申韩者，其下必佛老",
+            "author": {
+                "name": "符伟能"
+            },
+            "tags": [
+            ],
+            "date_published": "2025-10-09T00:31:23+08:00",
+            "date_modified": "2025-10-09T00:31:23+08:00"
+        },
+        {
             "id": "https://blog.fuweineng.com/mo-xing-qian-ru.html",
             "url": "https://blog.fuweineng.com/mo-xing-qian-ru.html",
             "title": "模型嵌入",
