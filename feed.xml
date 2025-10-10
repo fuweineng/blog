@@ -3,7 +3,7 @@
     <title>符伟能的网络日志</title>
     <link href="https://blog.fuweineng.com/feed.xml" rel="self" />
     <link href="https://blog.fuweineng.com" />
-    <updated>2025-10-10T00:05:12+08:00</updated>
+    <updated>2025-10-10T11:23:22+08:00</updated>
     <author>
         <name>符伟能</name>
     </author>
@@ -99,6 +99,101 @@
         <content type="html">
             <![CDATA[
                 <p>正如你所看到的，应该是的</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>博弈</title>
+        <author>
+            <name>符伟能</name>
+        </author>
+        <link href="https://blog.fuweineng.com/bo-yi.html"/>
+        <id>https://blog.fuweineng.com/bo-yi.html</id>
+
+        <updated>2025-09-19T11:19:00+08:00</updated>
+            <summary>
+                <![CDATA[
+                    博弈的本质是合作。 而博弈的技巧应该是以小博大， 做一些容易的事，达成一个理想的结果。
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>博弈的本质是合作。
+而博弈的技巧应该是以小博大，
+做一些容易的事，达成一个理想的结果。</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>“世事未必都有原因，执着于寻找，只会徒增困扰。不如坦然接受，转而思考对策。”</title>
+        <author>
+            <name>符伟能</name>
+        </author>
+        <link href="https://blog.fuweineng.com/shi-shi-wei-bi-du-you-yuan-yinzhi-zhao-yu-xun-zhaozhi-hui-tu-zeng-kun-rao-bu-ru-tan-ran-jie-shouzhuan-er-si-kao-dui-ce.html"/>
+        <id>https://blog.fuweineng.com/shi-shi-wei-bi-du-you-yuan-yinzhi-zhao-yu-xun-zhaozhi-hui-tu-zeng-kun-rao-bu-ru-tan-ran-jie-shouzhuan-er-si-kao-dui-ce.html</id>
+
+        <updated>2025-07-18T11:20:00+08:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
+    <entry>
+        <title>外壳是海康威视的雄迈摄像头</title>
+        <author>
+            <name>符伟能</name>
+        </author>
+        <link href="https://blog.fuweineng.com/wai-ke-shi-hai-kang-wei-shi-de-xiong-mai-she-xiang-tou.html"/>
+        <id>https://blog.fuweineng.com/wai-ke-shi-hai-kang-wei-shi-de-xiong-mai-she-xiang-tou.html</id>
+
+        <updated>2025-07-16T11:20:00+08:00</updated>
+            <summary>
+                <![CDATA[
+                    1、工程宝可以查看录像机推流 IP地址可以进去后台 但是账号密码不正确 外壳是海康但是海康400密码重置无法识别 通过mac地址搜索设备的生产厂商原来是雄迈 通过雄迈的默认账号密码成功登录进去
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>1、工程宝可以查看录像机推流
+IP地址可以进去后台
+但是账号密码不正确</p><p>外壳是海康但是海康400密码重置无法识别
+通过mac地址搜索设备的生产厂商原来是雄迈</p><p>通过雄迈的默认账号密码成功登录进去</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>可以重复的事情</title>
+        <author>
+            <name>符伟能</name>
+        </author>
+        <link href="https://blog.fuweineng.com/ke-yi-chong-fu-de-shi-qing.html"/>
+        <id>https://blog.fuweineng.com/ke-yi-chong-fu-de-shi-qing.html</id>
+
+        <updated>2025-07-14T11:20:00+08:00</updated>
+            <summary>
+                <![CDATA[
+                    在自然界，等待时机的捕食者，时机不到便只能挨饿； 而无需多谋的捕食者，反倒能不断进食。 简单，才能持续。 别看庞然大物，鲸鱼也不过是靠吃微小的磷虾维生。
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>在自然界，等待时机的捕食者，时机不到便只能挨饿；
+而无需多谋的捕食者，反倒能不断进食。</p><p>简单，才能持续。</p><p>别看庞然大物，鲸鱼也不过是靠吃微小的磷虾维生。</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>智能门禁接线方法</title>
+        <author>
+            <name>符伟能</name>
+        </author>
+        <link href="https://blog.fuweineng.com/zhi-neng-men-jin-jie-xian-fang-fa-2.html"/>
+        <id>https://blog.fuweineng.com/zhi-neng-men-jin-jie-xian-fang-fa-2.html</id>
+
+        <updated>2025-07-05T11:21:00+08:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                <p> </p>
+<figure class="post__image"><img loading="lazy"  src="https://blog.fuweineng.com/media/posts/14/2363628920-2.png" alt="" width="1584" height="788" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://blog.fuweineng.com/media/posts/14/responsive/2363628920-2-xs.png 300w ,https://blog.fuweineng.com/media/posts/14/responsive/2363628920-2-sm.png 480w ,https://blog.fuweineng.com/media/posts/14/responsive/2363628920-2-md.png 768w"></figure>
             ]]>
         </content>
     </entry>
