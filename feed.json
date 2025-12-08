@@ -10,6 +10,20 @@
     },
     "items": [
         {
+            "id": "https://blog.fuweineng.com/jiao-yu-ti-xi-de-zhuan-yilun-xue-sheng-ying-dang-xiang-xue-xiao-shou-fei-de-bi-ran-xing.html",
+            "url": "https://blog.fuweineng.com/jiao-yu-ti-xi-de-zhuan-yilun-xue-sheng-ying-dang-xiang-xue-xiao-shou-fei-de-bi-ran-xing.html",
+            "title": "教育市场化的方向",
+            "summary": "历史经验表明，教育作为公共投资，能够有效促进社会秩序的稳定与经济活力的提升。 在工业化之前，精英教育主要通过血缘或身份传承获得。接受教育的精英随后成为管理者，维系社会权力结构的运作。 进入工业化时代后，社会对劳动力的需求大幅增加，未来劳工的数量随之扩张，教育成本显著上升。 为了降低成本，社会将“学业有成”包装为个人光荣与理想追求，通过“学费”形式将教育支出转嫁给学生，使个体自愿承担本应由公共集体承担的教育成本。 与此同时，对表现优异的学生，制度通过奖学金等方式部分返还费用，实现有限的成本补偿。然而，“学生付费”模式掩盖了教育的公共属性，将社会应当承担的成本转嫁给个体。 实际上，教育不仅是知识传授的过程，更是塑造社会行为和创造市场需求的重要机制。 未来，教育资金的合理安排应以社会和市场为受益主体。企业可直接承担教育成本，并根据投入获得教才相应影响力，使教育回归服务社会和经济的本质，同时减轻个体负担，实现教育公平与社会繁荣的双重目标。",
+            "image": "https://blog.fuweineng.com/media/posts/37/ChatGPT-Image-2025Nian-12Yue-8Ri-15_21_37.png",
+            "author": {
+                "name": "符伟能"
+            },
+            "tags": [
+            ],
+            "date_published": "2025-12-08T14:38:06+08:00",
+            "date_modified": "2025-12-08T15:21:51+08:00"
+        },
+        {
             "id": "https://blog.fuweineng.com/xiang-gang-di-shi-ni-zhi-lu.html",
             "url": "https://blog.fuweineng.com/xiang-gang-di-shi-ni-zhi-lu.html",
             "title": "香港迪士尼之旅",
@@ -134,19 +148,6 @@
             ],
             "date_published": "2025-10-09T00:28:22+08:00",
             "date_modified": "2025-10-09T00:28:22+08:00"
-        },
-        {
-            "id": "https://blog.fuweineng.com/publii-shi-yi-ge-hao-de-ruan-jian-ma.html",
-            "url": "https://blog.fuweineng.com/publii-shi-yi-ge-hao-de-ruan-jian-ma.html",
-            "title": "publii 是一个好的软件吗？",
-            "summary": "正如你所看到的，应该是的",
-            "author": {
-                "name": "符伟能"
-            },
-            "tags": [
-            ],
-            "date_published": "2025-10-08T22:34:49+08:00",
-            "date_modified": "2025-10-08T22:34:49+08:00"
         }
     ]
 }
