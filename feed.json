@@ -10,6 +10,35 @@
     },
     "items": [
         {
+            "id": "https://blog.fuweineng.com/wang-luo-de-tong-huo-peng-zhang.html",
+            "url": "https://blog.fuweineng.com/wang-luo-de-tong-huo-peng-zhang.html",
+            "title": "网络的通货膨胀",
+            "summary": "最近看到，原来香港送龙骧包原来是不礼貌的事情。 为什么送礼不礼貌？因为价格太低了，不送超过2w的礼物，不如不送？ 这是？ 我认为是由于网络造成的通货膨胀造成的低价？歧视。 情与义值千金。不够两万是何物？ 在网络世界人均4090？ 其实通过steam的统计，目前 主流配置，主流显卡其实是4060 笔记本版。 而很多人线上发言都会维护自己的形象，尽量维护自己高价值的趋势。 一部分是真实的，因为他们不会遮掩自己的购买行为。他们就是真的低于4090 觉得狗都不买，他们是真实的，畅所欲言的。 第二部分是真实的，他们默默看着自己的口袋，然后发现原来自己连狗都不如，瑟瑟发抖。这部分人一般静静不说话。 第三个部分也是真实的，他们自己用猜测的方式，再网络畅写了自己理想中的自己。也顺便误导了第二部分老实的，把网络当作是现实的人儿。 这三个部分塑造了，网络的云上的世界（不贴地气） 所以你可以看到 电脑配置人均4090. 送的礼物人均几万。线上不会出现/很少出现买了几块钱的糖，并庆贺的行为。 所以，我鼓励第二部分的人儿也需要努力展示自己的正义，是真是假都展示。当真的数量够多，假的自然就会被冲破。 用良币驱逐劣币（期盼而已，实际应该不会发生）",
+            "image": "https://blog.fuweineng.com/media/posts/39/ff30217724df35142b606e849acc350d.png",
+            "author": {
+                "name": "符伟能"
+            },
+            "tags": [
+                   "波澜"
+            ],
+            "date_published": "2025-12-26T22:01:30+08:00",
+            "date_modified": "2025-12-26T22:14:45+08:00"
+        },
+        {
+            "id": "https://blog.fuweineng.com/yue-ren-su-ji.html",
+            "url": "https://blog.fuweineng.com/yue-ren-su-ji.html",
+            "title": "阅人。塑己",
+            "summary": "巴菲特：“所以我有一个小建议给你。 挑选出班级里你最钦佩的那个人，然后写下你为什么钦佩他们。列出一份品质清单——你不能提名自己。 然后写下整个群体中你最无法忍受的那个人，并写下那个让你反感的品质。 然后看看那份清单，你会发现它不是像投掷橄榄球70码之类的事情。 第一份清单中你钦佩的品质，是你通过一点练习就能拥有的品质，如果练习就会形成习惯。 习惯的枷锁太轻而无法察觉，直到它们太重而无法打破。 我是说，在我这个年纪，我无法改变任何习惯——我被困住了。但在你这个年纪，你20年后将拥有的习惯，就是你今天决定实践的。 所以我只是建议你看看你钦佩他人身上的习惯，或者你钦佩他人的行为，并让那些成为你自己的习惯。 然后看看你真正觉得他人身上有些可鄙的东西，并决定那些是你不会去做的事情。 本·富兰克林几百年前就这样做了——它今天仍然有效。” 这个即系见贤思齐，见不贤而内自省。的扩写版本",
+            "author": {
+                "name": "符伟能"
+            },
+            "tags": [
+                   "学成功"
+            ],
+            "date_published": "2025-12-26T21:55:36+08:00",
+            "date_modified": "2025-12-26T21:57:13+08:00"
+        },
+        {
             "id": "https://blog.fuweineng.com/jiao-yu-ti-xi-de-zhuan-yilun-xue-sheng-ying-dang-xiang-xue-xiao-shou-fei-de-bi-ran-xing.html",
             "url": "https://blog.fuweineng.com/jiao-yu-ti-xi-de-zhuan-yilun-xue-sheng-ying-dang-xiang-xue-xiao-shou-fei-de-bi-ran-xing.html",
             "title": "付费教育他人、教育市场化的方向",
@@ -124,31 +153,6 @@
             ],
             "date_published": "2025-10-10T00:05:12+08:00",
             "date_modified": "2025-11-22T15:59:26+08:00"
-        },
-        {
-            "id": "https://blog.fuweineng.com/qi-shang-shen-han-zheqi-xia-bi-fo-lao.html",
-            "url": "https://blog.fuweineng.com/qi-shang-shen-han-zheqi-xia-bi-fo-lao.html",
-            "title": "其上申韩者，其下必佛老",
-            "author": {
-                "name": "符伟能"
-            },
-            "tags": [
-            ],
-            "date_published": "2025-10-09T00:31:23+08:00",
-            "date_modified": "2025-10-09T00:31:23+08:00"
-        },
-        {
-            "id": "https://blog.fuweineng.com/mo-xing-qian-ru.html",
-            "url": "https://blog.fuweineng.com/mo-xing-qian-ru.html",
-            "title": "模型嵌入",
-            "summary": "两用炉 by F on Sketchfab",
-            "author": {
-                "name": "符伟能"
-            },
-            "tags": [
-            ],
-            "date_published": "2025-10-09T00:28:22+08:00",
-            "date_modified": "2025-10-09T00:28:22+08:00"
         }
     ]
 }
