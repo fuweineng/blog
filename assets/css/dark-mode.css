@@ -1,10 +1,11 @@
 /* =============================================
-   自动深色/浅色模式 (Dark/Light Mode)
-   根据系统设置自动切换，支持手动切换
+   完整深色/浅色模式 (Dark/Light Mode)
+   覆盖所有 Publii 主题元素
    ============================================= */
 
-/* 深色模式变量覆盖 */
+/* 深色模式变量覆盖 - 完整版本 */
 [data-theme="dark"] {
+  /* 基础颜色 */
   --white: #1a1a1b;
   --black: #FFFFFF;
   --dark: #E8E8E8;
@@ -12,15 +13,21 @@
   --gray-2: #9D9D9D;
   --light: #2a2a2b;
   --lighter: #252526;
+  
+  /* 文字颜色 */
   --text-color: #E8E8E8;
   --headings-color: #FFFFFF;
+  
+  /* 链接颜色 */
   --link-color: #ff4d6a;
   --link-color-hover: #ff7a92;
+  
+  /* 主题色 */
   --color: #ff4d6a;
   --color-rgb: 255, 77, 106;
 }
 
-/* 自动深色模式 - 跟随系统 */
+/* 自动模式 - 跟随系统 */
 @media (prefers-color-scheme: dark) {
   [data-theme="auto"] {
     --white: #1a1a1b;
@@ -39,12 +46,386 @@
   }
 }
 
-/* 平滑过渡 */
-body {
-  transition: background-color 0.3s ease, color 0.3s ease;
+/* =============================================
+   全局元素深色模式
+   ============================================= */
+
+/* 背景色 */
+[data-theme="dark"] body,
+[data-theme="dark"] .header,
+[data-theme="dark"] .wrapper,
+[data-theme="dark"] .c-card,
+[data-theme="dark"] .footer,
+[data-theme="dark"] .content,
+[data-theme="dark"] article,
+[data-theme="dark"] main,
+[data-theme="dark"] .navbar_mobile_overlay,
+[data-theme="dark"] .navbar_mobile_sidebar,
+[data-theme="dark"] .search__overlay,
+[data-theme="dark"] .gallery__item {
+  background-color: var(--white);
+  color: var(--text-color);
 }
 
-/* 深色模式切换按钮 */
+/* 头部导航 */
+[data-theme="dark"] .header {
+  background: #1a1a1b;
+  border-bottom: 1px solid #2a2a2b;
+}
+
+[data-theme="dark"] .logo,
+[data-theme="dark"] .navbar .navbar__menu li a,
+[data-theme="dark"] .navbar .navbar__menu li span {
+  color: #E8E8E8 !important;
+}
+
+[data-theme="dark"] .navbar .navbar__menu li a:hover,
+[data-theme="dark"] .navbar .navbar__menu li a:active,
+[data-theme="dark"] .navbar .navbar__menu li a:focus {
+  color: var(--color) !important;
+}
+
+/* 移动端菜单 */
+[data-theme="dark"] .navbar_mobile_overlay .navbar__menu li a,
+[data-theme="dark"] .navbar_mobile_overlay .navbar__menu li .is-separator,
+[data-theme="dark"] .navbar_mobile_sidebar .navbar__menu li a,
+[data-theme="dark"] .navbar_mobile_sidebar .navbar__menu li .is-separator {
+  color: #E8E8E8;
+}
+
+[data-theme="dark"] .navbar__toggle-inner,
+[data-theme="dark"] .navbar__toggle-inner::after,
+[data-theme="dark"] .navbar__toggle-inner::before {
+  background-color: #E8E8E8;
+}
+
+/* 搜索框 */
+[data-theme="dark"] .search__overlay {
+  background-color: #1a1a1b;
+}
+
+[data-theme="dark"] .search__input {
+  color: #E8E8E8;
+}
+
+[data-theme="dark"] .search__input::-webkit-input-placeholder {
+  color: #9D9D9D !important;
+}
+
+[data-theme="dark"] .search__input::-moz-placeholder {
+  color: #9D9D9D !important;
+}
+
+[data-theme="dark"] .search__input:-ms-input-placeholder {
+  color: #9D9D9D !important;
+}
+
+[data-theme="dark"] .search__input::placeholder {
+  color: #9D9D9D !important;
+}
+
+/* =============================================
+   首页卡片
+   ============================================= */
+
+[data-theme="dark"] .c-card {
+  background: #1a1a1b;
+  box-shadow: 1px 16px 18px -6px rgba(0, 0, 0, 0.3);
+}
+
+[data-theme="dark"] .c-card:hover {
+  box-shadow: 1px 32px 18px -6px rgba(0, 0, 0, 0.5);
+}
+
+[data-theme="dark"] .c-card__title a,
+[data-theme="dark"] .c-card__tag a {
+  color: #E8E8E8 !important;
+}
+
+[data-theme="dark"] .c-card__title a:hover {
+  color: var(--color) !important;
+}
+
+[data-theme="dark"] .c-card__meta {
+  color: #9D9D9D;
+}
+
+[data-theme="dark"] .c-card__text {
+  color: #C5C5C5;
+}
+
+/* 特色卡片 (带遮罩) */
+[data-theme="dark"] .l-grid--5 .c-card:nth-child(9n-4) .c-card__wrapper *,
+[data-theme="dark"] .l-grid--6 .c-card:nth-child(2) .c-card__wrapper *,
+[data-theme="dark"] .c-card--compact .c-card__wrapper * {
+  color: #FFFFFF !important;
+}
+
+/* =============================================
+   文章页面
+   ============================================= */
+
+[data-theme="dark"] .content__entry,
+[data-theme="dark"] .content__entry p,
+[data-theme="dark] .content__entry li {
+  color: #E8E8E8;
+}
+
+[data-theme="dark"] .content__entry h1,
+[data-theme="dark"] .content__entry h2,
+[data-theme="dark"] .content__entry h3,
+[data-theme="dark"] .content__entry h4,
+[data-theme="dark"] .content__entry h5,
+[data-theme="dark"] .content__entry h6 {
+  color: #FFFFFF;
+}
+
+[data-theme="dark"] .content__meta,
+[data-theme="dark"] .content__last-updated {
+  color: #9D9D9D;
+}
+
+[data-theme="dark"] .content__tag li a {
+  background: #252526;
+  color: #E8E8E8;
+}
+
+[data-theme="dark"] .content__tag li a:hover {
+  background: #E8E8E8;
+  color: #1a1a1b;
+}
+
+[data-theme="dark"] .content__share a svg {
+  fill: #C5C5C5;
+}
+
+[data-theme="dark"] .content__share a:hover svg {
+  fill: var(--color);
+}
+
+/* 引用块 */
+[data-theme="dark"] blockquote {
+  color: #C5C5C5;
+  border-left-color: var(--color);
+}
+
+[data-theme="dark"] blockquote::before,
+[data-theme="dark"] blockquote::after {
+  border-top-color: #2a2a2b;
+}
+
+/* 代码块 */
+[data-theme="dark"] code {
+  background-color: rgba(255, 77, 106, 0.15);
+  color: #ff7a92;
+}
+
+[data-theme="dark"] pre {
+  background-color: #252526;
+}
+
+[data-theme="dark"] pre code {
+  background-color: transparent;
+  color: #E8E8E8;
+}
+
+/* 表格 */
+[data-theme="dark"] table {
+  border-color: #2a2a2b;
+}
+
+[data-theme="dark"] table th {
+  background-color: #252526;
+  color: #FFFFFF;
+}
+
+[data-theme="dark"] table td {
+  border-color: #2a2a2b;
+  color: #E8E8E8;
+}
+
+/* 列表 */
+[data-theme="dark"] ul li,
+[data-theme="dark"] ol li {
+  color: #E8E8E8;
+}
+
+/* 链接 */
+[data-theme="dark"] .content__entry a {
+  color: var(--link-color);
+}
+
+[data-theme="dark"] .content__entry a:hover {
+  color: var(--link-color-hover);
+}
+
+/* =============================================
+   表单元素
+   ============================================= */
+
+[data-theme="dark"] input[type="text"],
+[data-theme="dark"] input[type="email"],
+[data-theme="dark"] input[type="search"],
+[data-theme="dark"] input[type="tel"],
+[data-theme="dark"] input[type="url"],
+[data-theme="dark"] input[type="number"],
+[data-theme="dark"] input[type="password"],
+[data-theme="dark"] textarea,
+[data-theme="dark"] select {
+  background-color: #252526;
+  border-color: #2a2a2b;
+  color: #E8E8E8;
+}
+
+[data-theme="dark"] input[type="text"]:focus,
+[data-theme="dark"] input[type="email"]:focus,
+[data-theme="dark"] input[type="search"]:focus,
+[data-theme="dark"] input[type="tel"]:focus,
+[data-theme="dark"] input[type="url"]:focus,
+[data-theme="dark"] input[type="number"]:focus,
+[data-theme="dark"] input[type="password"]:focus,
+[data-theme="dark"] textarea:focus,
+[data-theme="dark"] select:focus {
+  border-color: #9D9D9D;
+  outline-color: var(--color);
+}
+
+[data-theme="dark"] input[type="checkbox"] + label::before,
+[data-theme="dark"] input[type="radio"] + label::before {
+  background-color: #252526;
+  border-color: #2a2a2b;
+}
+
+[data-theme="dark"] input[type="checkbox"]:checked + label::after,
+[data-theme="dark"] input[type="radio"]:checked + label::after {
+  border-color: var(--color);
+}
+
+/* 按钮 */
+[data-theme="dark"] .btn,
+[data-theme="dark"] button[type="submit"],
+[data-theme="dark"] button[type="button"] {
+  background: var(--color);
+  color: #FFFFFF;
+}
+
+[data-theme="dark"] .btn:hover,
+[data-theme="dark"] button:hover {
+  background: var(--link-color-hover);
+  color: #FFFFFF;
+}
+
+/* =============================================
+   页脚
+   ============================================= */
+
+[data-theme="dark"] .footer {
+  background: #252526;
+  color: #9D9D9D;
+}
+
+[data-theme="dark"] .footer__copyright {
+  color: #9D9D9D;
+}
+
+[data-theme="dark"] .footer__social a svg {
+  fill: #9D9D9D;
+}
+
+[data-theme="dark"] .footer__social a:hover svg {
+  fill: var(--color);
+}
+
+/* =============================================
+   分页和导航
+   ============================================= */
+
+[data-theme="dark"] .pagination a {
+  color: #E8E8E8;
+}
+
+[data-theme="dark"] .content__nav__link {
+  color: #9D9D9D !important;
+}
+
+[data-theme="dark"] .content__nav h3 {
+  color: #E8E8E8;
+}
+
+[data-theme="dark"] .content__nav__link:hover h3 {
+  color: var(--link-color);
+}
+
+/* =============================================
+   作者信息和评论
+   ============================================= */
+
+[data-theme="dark"] .bio {
+  background: #252526;
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.3);
+}
+
+[data-theme="dark"] .bio__name {
+  color: #FFFFFF;
+}
+
+[data-theme="dark"] .bio__desc {
+  color: #C5C5C5;
+}
+
+/* =============================================
+   画廊
+   ============================================= */
+
+[data-theme="dark"] .gallery__item figcaption {
+  color: #FFFFFF;
+}
+
+/* =============================================
+   消息框
+   ============================================= */
+
+[data-theme="dark"] .msg--highlight {
+  background-color: #3a3a1a;
+  color: #E8E8E8;
+}
+
+[data-theme="dark"] .msg--info {
+  background: #1a2a3a;
+  color: #E8E8E8;
+}
+
+[data-theme="dark"] .msg--success {
+  background: #1a3a2a;
+  color: #E8E8E8;
+}
+
+[data-theme="dark"] .msg--warning {
+  background: #3a1a1a;
+  color: #ff7a92;
+}
+
+/* =============================================
+   平滑过渡
+   ============================================= */
+
+body,
+.header,
+.c-card,
+.content__entry,
+.footer,
+.navbar__menu li a,
+input,
+textarea,
+select,
+button {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+/* =============================================
+   深色模式切换按钮 - 右上角
+   ============================================= */
+
 .theme-switch {
   position: fixed;
   top: 2rem;
@@ -58,14 +439,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
   z-index: 9999;
   transition: all 0.3s ease;
 }
 
 .theme-switch:hover {
   transform: scale(1.1);
-  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.5);
 }
 
 .theme-switch svg {
@@ -104,4 +485,50 @@ body {
     width: 20px;
     height: 20px;
   }
+}
+
+/* =============================================
+   特殊元素处理
+   ============================================= */
+
+/* 分割线 */
+[data-theme="dark"] hr,
+[data-theme="dark"] .separator::before {
+  border-color: #2a2a2b;
+  color: #9D9D9D;
+}
+
+/* 图片说明文字 */
+[data-theme="dark"] figcaption {
+  color: #9D9D9D;
+}
+
+/* 选中文字 */
+[data-theme="dark"] ::selection {
+  background: var(--color);
+  color: #FFFFFF;
+}
+
+[data-theme="dark"] ::-moz-selection {
+  background: var(--color);
+  color: #FFFFFF;
+}
+
+/* 滚动条 (WebKit) */
+[data-theme="dark"] ::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+[data-theme="dark"] ::-webkit-scrollbar-track {
+  background: #1a1a1b;
+}
+
+[data-theme="dark"] ::-webkit-scrollbar-thumb {
+  background: #2a2a2b;
+  border-radius: 5px;
+}
+
+[data-theme="dark"] ::-webkit-scrollbar-thumb:hover {
+  background: #9D9D9D;
 }
