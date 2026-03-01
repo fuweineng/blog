@@ -1,0 +1,107 @@
+/* =============================================
+   自动深色/浅色模式 (Dark/Light Mode)
+   根据系统设置自动切换，支持手动切换
+   ============================================= */
+
+/* 深色模式变量覆盖 */
+[data-theme="dark"] {
+  --white: #1a1a1b;
+  --black: #FFFFFF;
+  --dark: #E8E8E8;
+  --gray-1: #C5C5C5;
+  --gray-2: #9D9D9D;
+  --light: #2a2a2b;
+  --lighter: #252526;
+  --text-color: #E8E8E8;
+  --headings-color: #FFFFFF;
+  --link-color: #ff4d6a;
+  --link-color-hover: #ff7a92;
+  --color: #ff4d6a;
+  --color-rgb: 255, 77, 106;
+}
+
+/* 自动深色模式 - 跟随系统 */
+@media (prefers-color-scheme: dark) {
+  [data-theme="auto"] {
+    --white: #1a1a1b;
+    --black: #FFFFFF;
+    --dark: #E8E8E8;
+    --gray-1: #C5C5C5;
+    --gray-2: #9D9D9D;
+    --light: #2a2a2b;
+    --lighter: #252526;
+    --text-color: #E8E8E8;
+    --headings-color: #FFFFFF;
+    --link-color: #ff4d6a;
+    --link-color-hover: #ff7a92;
+    --color: #ff4d6a;
+    --color-rgb: 255, 77, 106;
+  }
+}
+
+/* 平滑过渡 */
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* 深色模式切换按钮 */
+.theme-switch {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: var(--color);
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+  transition: all 0.3s ease;
+}
+
+.theme-switch:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.3);
+}
+
+.theme-switch svg {
+  width: 24px;
+  height: 24px;
+  fill: #fff;
+}
+
+/* 隐藏太阳/月亮图标 */
+.theme-switch .sun-icon {
+  display: none;
+}
+
+.theme-switch .moon-icon {
+  display: block;
+}
+
+[data-theme="dark"] .theme-switch .sun-icon {
+  display: block;
+}
+
+[data-theme="dark"] .theme-switch .moon-icon {
+  display: none;
+}
+
+/* 移动端适配 */
+@media (max-width: 768px) {
+  .theme-switch {
+    bottom: 1.5rem;
+    right: 1.5rem;
+    width: 48px;
+    height: 48px;
+  }
+  
+  .theme-switch svg {
+    width: 20px;
+    height: 20px;
+  }
+}
