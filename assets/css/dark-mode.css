@@ -47,7 +47,7 @@ body {
 /* 深色模式切换按钮 */
 .theme-switch {
   position: fixed;
-  bottom: 2rem;
+  top: 2rem;
   right: 2rem;
   width: 56px;
   height: 56px;
@@ -94,8 +94,8 @@ body {
 /* 移动端适配 */
 @media (max-width: 768px) {
   .theme-switch {
-    bottom: 1.5rem;
-    right: 1.5rem;
+    top: 1rem;
+    right: 1rem;
     width: 48px;
     height: 48px;
   }
