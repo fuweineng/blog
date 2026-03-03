@@ -1,0 +1,7 @@
+baseURL = 'https://blog.fuweineng.com/'
+languageCode = 'zh-hk'
+title = '符伟能的网络日志'
+
+[params]
+  author = "符伟能"
+  description = "從 Notion 導出的思想碎片合成而成的隨筆/散文集"
