@@ -1,7 +1,117 @@
+# Hugo 基础配置
 baseURL = 'https://blog.fuweineng.com/'
 languageCode = 'zh-hk'
 title = '符伟能的网络日志'
+theme = "blowfish"
 
+# 多语言配置
+defaultContentLanguage = 'zh-hk'
+disableLanguages = []
+
+# 其他配置
+enableEmoji = true
+summaryLength = 30
+hasCJKLanguage = true
+buildDrafts = false
+buildFuture = false
+
+# 分页
+[pagination]
+  pagerSize = 10
+
+# 分类法
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  author = "authors"
+
+# 输出格式
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+# 作者配置
+[author]
+  name = "符伟能"
+
+# 主题参数
 [params]
-  author = "符伟能"
+  # 基础配置
   description = "從 Notion 導出的思想碎片合成而成的隨筆/散文集"
+  colorScheme = "blowfish"
+  defaultAppearance = "dark"
+  autoSwitchAppearance = true
+  
+  # 功能开关
+  enableSearch = true
+  enableCodeCopy = true
+  enableA11y = false
+  
+  # 主栏目
+  mainSections = ["posts"]
+  
+  # 头部配置
+  [params.header]
+    layout = "basic"
+  
+  # 页脚配置
+  [params.footer]
+    showMenu = true
+    showCopyright = true
+    showThemeAttribution = true
+    showAppearanceSwitcher = true
+    showScrollToTop = true
+  
+  # 首页配置
+  [params.homepage]
+    layout = "card"
+    showRecent = true
+    showRecentItems = 10
+    showMoreLink = false
+    cardView = true
+    cardViewScreenWidth = false
+  
+  # 文章配置
+  [params.article]
+    showDate = true
+    showDateUpdated = false
+    showAuthor = true
+    showBreadcrumbs = true
+    showDraftLabel = true
+    showReadingTime = true
+    showTableOfContents = true
+    showTaxonomies = true
+    showWordCount = false
+    showHeadingAnchors = true
+    showPagination = true
+    showRelatedContent = false
+    
+  # 列表页配置
+  [params.list]
+    showBreadcrumbs = false
+    showHero = false
+  
+  # 语法高亮
+  [params.highlight]
+    enable = true
+    theme = "github-dark"
+  
+  # 社交链接 (可选)
+  # [[params.social]]
+  #   name = "GitHub"
+  #   icon = "github"
+  #   url = "https://github.com/fuweineng"
+
+# Markdown 渲染配置
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = false
+    tabWidth = 4
