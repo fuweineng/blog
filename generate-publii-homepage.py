@@ -70,13 +70,17 @@ def extract_article_info(filepath):
         'link': f'{filename}.html' if not filename.endswith('.html') else filename,
     }
 
-def generate_post_card(article):
+def generate_post_card(article, page=1):
     """生成文章卡片 HTML"""
+    # 分页页面使用绝对路径，首页使用相对路径
+    link = article['link'] if page == 1 else f"https://blog.fuweineng.com/{article['link']}"
+    image = article['image'] if page == 1 else article['image'].replace('./', 'https://blog.fuweineng.com/')
+    
     return f'''
 <article class="post">
-<a href="{article['link']}" class="post__image"><img src="{article['image']}" alt="{article['title']}" loading="lazy"></a>
+<a href="{link}" class="post__image"><img src="{image}" alt="{article['title']}" loading="lazy"></a>
 <div class="post__content">
-<h2 class="post__title"><a href="{article['link']}">{article['title']}</a></h2>
+<h2 class="post__title"><a href="{link}">{article['title']}</a></h2>
 <p class="post__excerpt">{article['excerpt']}</p>
 <div class="post__meta">
 <time datetime="{article['date']}">{article['date']}</time>
@@ -141,7 +145,7 @@ def generate_homepage(page=1):
     page_articles = articles[start_idx:end_idx]
     
     # 生成文章卡片
-    posts_html = '\n'.join([generate_post_card(article) for article in page_articles])
+    posts_html = '\n'.join([generate_post_card(article, page) for article in page_articles])
     
     # 生成分页
     pagination_html = generate_pagination(page, total_pages)
