@@ -1,6 +1,6 @@
 /* =============================================
-   通用深色/浅色模式 (Universal Dark/Light Mode)
-   支持：Publii + Hugo + 自定义 HTML
+   统一博客样式 (Unified Blog Styles)
+   目标：统一 Publii + Hugo 页面的视觉风格
    版本：v2026.03.05
    ============================================= */
 
@@ -578,4 +578,116 @@ button {
 
 [data-theme="dark"] .bg-card {
   background-color: var(--bg-card);
+}
+
+/* =============================================
+   统一样式补丁 - 让 Hugo 页面更像 Publii
+   ============================================= */
+
+/* 统一导航栏样式 */
+.unified-header {
+  background-color: var(--bg-secondary);
+  border-bottom: 1px solid var(--border-color);
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.unified-header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--text-primary);
+  text-decoration: none;
+}
+
+.unified-header .navbar__menu {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.unified-header .navbar__menu li a {
+  color: var(--text-primary);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.unified-header .navbar__menu li a:hover {
+  color: var(--accent-color);
+}
+
+/* 统一页脚样式 */
+.unified-footer {
+  background-color: var(--bg-secondary);
+  border-top: 1px solid var(--border-color);
+  padding: 2rem;
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.unified-footer .footer__copyright {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+/* 统一文章内容样式 */
+.unified-page article {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: var(--bg-card);
+  box-shadow: 1px 16px 18px -6px var(--shadow-color);
+  border-radius: 8px;
+}
+
+.unified-page .featured-image {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.unified-page .featured-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.unified-page .featured-image figcaption {
+  margin-top: 0.5rem;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.unified-page .meta {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border-color);
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.unified-page .meta time,
+.unified-page .meta .author {
+  margin-right: 1rem;
+}
+
+/* 移动端适配 */
+@media (max-width: 768px) {
+  .unified-header {
+    padding: 1rem;
+  }
+  
+  .unified-header .navbar__menu {
+    display: none;
+  }
+  
+  .unified-page article {
+    padding: 1rem;
+    margin: 1rem;
+  }
 }

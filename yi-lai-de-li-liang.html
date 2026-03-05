@@ -13,28 +13,37 @@
     <link rel="canonical" href="https://blog.fuweineng.com/yi-lai-de-li-liang.html">
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="/">首页</a>
-            <a href="/about.html">关于</a>
-        </nav>
-    </header>
+    <header class="header" id="js-header">
+  <a href="/" class="logo">符伟能的网络日志</a>
+  <nav class="navbar js-navbar">
+    <button class="navbar__toggle js-toggle" aria-label="Menu">
+      <span class="navbar__toggle-box">
+        <span class="navbar__toggle-inner">Menu</span>
+      </span>
+    </button>
+    <ul class="navbar__menu">
+      <li><a href="/pc-qing-huai-ruan-jian-tui-jian.html" target="_self">好用软件</a></li>
+      <li><a href="/li-an-shang-xin-wen.html" target="_self">链上新闻</a></li>
+      <li><a href="/about.html" target="_self">咋了</a></li>
+    </ul>
+  </nav>
+</header>
 
-    <main>
-        <article>
-            <h1>依赖的力量</h1>
+    <main class="main"><div class="wrapper">
+        <article class="post">
+            <h1 class="post__title">依赖的力量</h1>
             
-            <div class="meta">
+            <div class="post__meta">
                 <time datetime="2026-02-27">2026 年 2 月 27 日</time>
                 <span class="author">小明</span>
             </div>
 
-            <figure class="featured-image">
+            <figure class="post__image">
                 <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1200&h=630&fit=crop" alt="一群朋友在一起">
                 <figcaption>互相依赖，才是最强的力量</figcaption>
             </figure>
 
-            <div class="content">
+            <div class="post__content">
                 <p>这个社会一直在教人要独立。从小听到大的话：「自己的事情自己做」「不要依赖别人」「要独立自强」。</p>
 
                 <p>但很少有人告诉你：<strong>依赖别人，其实是一种能力</strong>。</p>
@@ -148,11 +157,11 @@
                 <a href="/tags/si-kao.html">思考</a>
             </div>
         </article>
-    </main>
+    </div></main>
 
-    <footer>
-        <p>&copy; 2026 小明的博客</p>
-    </footer>
+    <footer class="footer">
+  <div class="footer__copyright">Powered by Publii · 小明的博客</div>
+</footer>
 
     <style>
         body {
@@ -259,5 +268,5 @@
             }
         }
     </style>
-<script defer="defer" src="./assets/js/universal-dark-mode.js?v=3481510"></script></body>
+<script defer="defer" src="./assets/js/unify-styles.js?v=3481510"></script></body>
 </html>

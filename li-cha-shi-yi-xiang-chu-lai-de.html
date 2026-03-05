@@ -13,28 +13,37 @@
     <link rel="canonical" href="https://blog.fuweineng.com/li-cha-shi-yi-xiang-chu-lai-de.html">
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="/">首页</a>
-            <a href="/about.html">关于</a>
-        </nav>
-    </header>
+    <header class="header" id="js-header">
+  <a href="/" class="logo">符伟能的网络日志</a>
+  <nav class="navbar js-navbar">
+    <button class="navbar__toggle js-toggle" aria-label="Menu">
+      <span class="navbar__toggle-box">
+        <span class="navbar__toggle-inner">Menu</span>
+      </span>
+    </button>
+    <ul class="navbar__menu">
+      <li><a href="/pc-qing-huai-ruan-jian-tui-jian.html" target="_self">好用软件</a></li>
+      <li><a href="/li-an-shang-xin-wen.html" target="_self">链上新闻</a></li>
+      <li><a href="/about.html" target="_self">咋了</a></li>
+    </ul>
+  </nav>
+</header>
 
-    <main>
-        <article>
-            <h1>利差是臆想出来的</h1>
+    <main class="main"><div class="wrapper">
+        <article class="post">
+            <h1 class="post__title">利差是臆想出来的</h1>
             
-            <div class="meta">
+            <div class="post__meta">
                 <time datetime="2026-02-28">2026 年 2 月 28 日</time>
                 <span class="author">小明</span>
             </div>
 
-            <figure class="featured-image">
+            <figure class="post__image">
                 <img src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&h=630&fit=crop" alt="股票走势图">
                 <figcaption>价格的波动，是人的判断在波动</figcaption>
             </figure>
 
-            <div class="content">
+            <div class="post__content">
                 <p>「低买高卖」——这是投资界最古老的格言。</p>
 
                 <p>但很少有人问一个问题：<strong>凭什么有差价？</strong></p>
@@ -191,11 +200,11 @@
                 <a href="/tags/tou-zi.html">投资</a>
             </div>
         </article>
-    </main>
+    </div></main>
 
-    <footer>
-        <p>&copy; 2026 小明的博客</p>
-    </footer>
+    <footer class="footer">
+  <div class="footer__copyright">Powered by Publii · 小明的博客</div>
+</footer>
 
     <style>
         body {
@@ -309,5 +318,5 @@
             }
         }
     </style>
-<script defer="defer" src="./assets/js/universal-dark-mode.js?v=3481510"></script></body>
+<script defer="defer" src="./assets/js/unify-styles.js?v=3481510"></script></body>
 </html>
