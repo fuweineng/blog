@@ -165,7 +165,6 @@ def generate_homepage(page=1):
 <link rel="alternate" type="application/atom+xml" href="https://blog.fuweineng.com/feed.xml" title="符伟能的网络日志 - RSS">
 <link rel="alternate" type="application/json" href="https://blog.fuweineng.com/feed.json" title="符伟能的网络日志 - JSON">
 <link rel="stylesheet" href="https://blog.fuweineng.com/assets/css/style.css">
-<link rel="stylesheet" href="./assets/css/universal-dark-mode.css?v={version}">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✨</text></svg>">
 </head>
 <body class="home-template">
