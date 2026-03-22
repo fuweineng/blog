@@ -21,6 +21,7 @@ make_*.sh
 public/
 resources/
 .hugo_build.lock
+.wrangler/
 
 # macOS
 .DS_Store
