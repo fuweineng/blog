@@ -432,6 +432,133 @@ footer#site-footer {
   line-height: 1.95;
 }
 
+#single_header {
+  margin-bottom: 1.2rem;
+}
+
+#single_header h1 {
+  line-height: 1.16;
+  letter-spacing: 0.02em;
+}
+
+.article-content {
+  color: rgba(var(--color-neutral-800), 0.96);
+}
+
+.article-content > p:first-of-type:not(:has(figure)),
+.article-content > p:first-of-type:has(figure) + p {
+  font-size: 1.12rem;
+  line-height: 2;
+  color: rgba(var(--color-neutral-700), 0.96);
+}
+
+.article-content > p + p,
+.article-content > ul,
+.article-content > ol,
+.article-content > blockquote,
+.article-content > table,
+.article-content > pre {
+  margin-top: 1.1rem;
+}
+
+.article-content h2,
+.article-content h3,
+.article-content h4 {
+  scroll-margin-top: 6.5rem;
+}
+
+.article-content h2 {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  font-size: clamp(1.65rem, 3vw, 2.05rem);
+  line-height: 1.36;
+}
+
+.article-content h3 {
+  margin-top: 2.2rem;
+  margin-bottom: 0.8rem;
+  font-size: 1.32rem;
+  line-height: 1.45;
+}
+
+.article-content h4 {
+  margin-top: 1.8rem;
+  margin-bottom: 0.65rem;
+  font-size: 1.08rem;
+  line-height: 1.55;
+}
+
+.article-content hr {
+  margin: 2.4rem 0;
+  border: 0;
+  border-top: 1px solid rgba(var(--color-primary-300), 0.4);
+}
+
+.article-content :where(ol, ul):not(:where([class~="not-prose"] *)) {
+  padding-left: 1.4rem;
+}
+
+.article-content :where(li):not(:where([class~="not-prose"] *)) {
+  margin: 0.45rem 0;
+  padding-left: 0.2rem;
+}
+
+.article-content :where(li)::marker {
+  color: rgb(var(--color-primary-500));
+  font-weight: 700;
+}
+
+.article-content figure {
+  margin: 1.6rem 0 1.85rem;
+}
+
+.article-content figure img,
+.article-content img {
+  border-radius: 1.15rem;
+  border: 1px solid rgba(var(--color-primary-200), 0.4);
+  box-shadow: var(--site-shadow-soft);
+}
+
+.article-content figcaption {
+  margin-top: 0.7rem;
+  font-size: 0.92rem;
+  line-height: 1.75;
+  color: rgba(var(--color-neutral-500), 0.96);
+  text-align: center;
+}
+
+.article-content table {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 1rem;
+  border: 1px solid rgba(var(--color-primary-200), 0.45);
+  background: rgba(255, 255, 255, 0.62);
+  box-shadow: var(--site-shadow-soft);
+}
+
+.article-content thead {
+  background: rgba(var(--color-primary-100), 0.8);
+}
+
+.article-content th,
+.article-content td {
+  padding: 0.85rem 1rem;
+  border-color: rgba(var(--color-primary-200), 0.42);
+}
+
+.article-content pre {
+  border: 1px solid rgba(var(--color-primary-200), 0.4);
+  border-radius: 1rem;
+  box-shadow: var(--site-shadow-soft);
+}
+
+.author {
+  padding: 1rem 1.1rem;
+  border: 1px solid rgba(var(--color-primary-200), 0.34);
+  border-radius: 1.25rem;
+  background: rgba(255, 255, 255, 0.58);
+}
+
 .prose :where(a):not(:where([class~="not-prose"] *)) {
   color: rgb(var(--color-primary-700));
   text-decoration-color: rgba(var(--color-primary-400), 0.55);
@@ -596,6 +723,8 @@ html.dark footer#site-footer {
 html.dark .home-lead,
 html.dark .home-profile__meta p,
 html.dark .article-link__summary,
+html.dark .article-content > p:first-of-type:not(:has(figure)),
+html.dark .article-content > p:first-of-type:has(figure) + p,
 html.dark .home-links__item span,
 html.dark .home-curated__meta {
   color: rgba(229, 234, 230, 0.78);
@@ -605,7 +734,9 @@ html.dark .home-button--ghost,
 html.dark .home-curated__item,
 html.dark .home-links__item,
 html.dark .home-stat,
-html.dark .home-topic {
+html.dark .home-topic,
+html.dark .author,
+html.dark .article-content table {
   background: rgba(255, 255, 255, 0.04);
   border-color: rgba(159, 181, 169, 0.16);
 }

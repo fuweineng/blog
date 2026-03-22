@@ -4,7 +4,7 @@ date: 2026-03-02T12:00:00+08:00
 draft: false
 tags: ["噪音"]
 ---
-![](/media/posts/ben-ke-xue-li-jiu-gou-chu-guo-gong-zuoshen-zhi-chang-qi-ju-liu-2025nian-10yue-1ri-zheng-shi-shi-shi/featured.jpg)字数 2079，阅读大约需 11 分钟
+![](/media/posts/ben-ke-xue-li-jiu-gou-chu-guo-gong-zuoshen-zhi-chang-qi-ju-liu-2025nian-10yue-1ri-zheng-shi-shi-shi/featured.jpg)
 
 本科學歷就夠出國工作、甚至長期居留？ 2025年10月1日正式实施！
 

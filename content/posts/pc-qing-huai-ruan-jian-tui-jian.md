@@ -2,15 +2,39 @@
 title: "应用推荐"
 date: 2026-03-02T12:00:00+08:00
 draft: false
+tags: ["工具", "效率", "软件"]
 ---
 
-![](/media/posts/pc-qing-huai-ruan-jian-tui-jian/featured.jpg)[https://www.photopea.com 在线即用的应急图像处理（ ps](https://draft.blogger.com/blog/page/edit/7183417307105057783/8922826747571741113#)[OBS Studio](https://draft.blogger.com/blog/page/edit/7183417307105057783/8922826747571741113#)（開源录屏软件） [Blender](https://draft.blogger.com/blog/page/edit/7183417307105057783/8922826747571741113#)（開源视频剪辑，建模渲染合成軟件）
-[Inkscape](https://draft.blogger.com/blog/page/edit/7183417307105057783/8922826747571741113#)（開源矢量图制作软件）
-[recuva](https://draft.blogger.com/blog/page/edit/7183417307105057783/8922826747571741113#)（数据恢复）
-## Snipaste
+![](/media/posts/pc-qing-huai-ruan-jian-tui-jian/featured.jpg)
 
- [火絨](https://draft.blogger.com/blog/page/edit/7183417307105057783/8922826747571741113#)（個人免費杀毒软件）
+这些年反复安装、删除、又重新装回来的软件，大多有一个共同点：它们不一定最花哨，但都能在关键时刻解决问题。这里整理一份我自己偏爱的实用清单。
 
-[WorkFlowy](https://draft.blogger.com/blog/page/edit/7183417307105057783/8922826747571741113#)（信息梳理）
+## 图像与设计
 
-[Inoreader](https://draft.blogger.com/blog/page/edit/7183417307105057783/8922826747571741113#)（一個網站訂閲掉你每天要登陸的信息獲取網站，何樂而不爲呢？） [Fliqlo - Screensaver](https://draft.blogger.com/blog/page/edit/7183417307105057783/8922826747571741113#)everything [iPerf - The TCP, UDP and SCTP network bandwidth measurement tool](https://draft.blogger.com/blog/page/edit/7183417307105057783/8922826747571741113#) MouseInc [typora](https://draft.blogger.com/blog/page/edit/7183417307105057783/8922826747571741113#)
+- Photopea：浏览器里就能临时处理图片，适合没有 Photoshop 的应急场景。
+- Blender：做建模、渲染、剪辑都很能打，学习曲线陡一点，但上限也高。
+- Inkscape：开源矢量图工具，适合处理图标、线稿和简单排版。
+
+## 录屏与写作
+
+- OBS Studio：录屏、直播、采集窗口都很稳，是长期可用的生产力工具。
+- Typora：所见即所得的 Markdown 编辑器，适合安静写作。
+- Snipaste：截图、贴图、临时标注都很顺手，属于装上就很难卸掉的那类软件。
+
+## 效率与信息整理
+
+- WorkFlowy：适合整理思路、列提纲、拆任务，越用越像脑子的外置目录。
+- Inoreader：把常看的资讯源集中到一个地方，省掉来回打开多个网站的时间。
+- Fliqlo：不是刚需，但在桌面上放一个克制的翻页时钟，会让节奏慢下来一点。
+
+## 系统与网络
+
+- 火绒：轻量、安静，适合不想被安全软件频繁打扰的人。
+- Recuva：误删文件时的救急工具，平时不起眼，真出事时很重要。
+- Everything：找文件极快，是 Windows 上最值得装的基础工具之一。
+- iPerf：排查局域网带宽和网络状态时很好用，尤其适合折腾路由器和 NAS 的人。
+- MouseInc：给鼠标手势和快捷操作补一层效率，非常适合长期桌面用户。
+
+## 工具之外
+
+工具不在多，而在顺手。真正留下来的软件，通常不是参数最多的，而是最愿意陪你长期工作的那一类。
