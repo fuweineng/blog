@@ -1,11 +1,10 @@
 ---
-title: "付费教育他人、教育市场化的方向 - 符伟能的网络日志"
+title: "付费教育他人、教育市场化的方向"
 date: 2026-03-02T12:00:00+08:00
 draft: false
-tags: ["Publii", "遷移"]
 ---
 
-![](./media/posts/jiao-yu-ti-xi-de-zhuan-yilun-xue-sheng-ying-dang-xiang-xue-xiao-shou-fei-de-bi-ran-xing/featured.jpg)**教育作为利他的公共投资，可以能够有效促进社会秩序的稳定与经济活力的提升。**在工业化之前，教育主要通过血缘或身份传承获得。接受教育的精英随后成为管理者，维系社会权力结构的运作。
+![](/media/posts/jiao-yu-ti-xi-de-zhuan-yilun-xue-sheng-ying-dang-xiang-xue-xiao-shou-fei-de-bi-ran-xing/featured.jpg)**教育作为利他的公共投资，可以能够有效促进社会秩序的稳定与经济活力的提升。**在工业化之前，教育主要通过血缘或身份传承获得。接受教育的精英随后成为管理者，维系社会权力结构的运作。
 
 进入工业化时代后，各个工序并不能单纯靠口口相传地培养出来，社会对劳动力的需求大幅增加，期待未来劳工的数量可以得到扩张，这样令社会需要付出的教育成本显著上升。
 

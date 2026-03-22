@@ -1,11 +1,10 @@
 ---
-title: "时间流逝是观察 - 符伟能的网络日志"
+title: "时间流逝是观察"
 date: 2026-03-02T12:00:00+08:00
 draft: false
-tags: ["Publii", "遷移"]
 ---
 
-![时间流逝是观察](./media/posts/shi-jian-liu-shi-shi-guan-cha/featured.jpg)
+![时间流逝是观察](/media/posts/shi-jian-liu-shi-shi-guan-cha/featured.jpg)
 
 小时候，时间过得很慢。一个暑假像一辈子那么长。长大后，时间突然加速，一年眨眼就没了。
 
@@ -27,7 +26,7 @@ tags: ["Publii", "遷移"]
 
 如果没有这株植物，六十天只是日历上的数字。有了它，时间有了形状。
 
-![植物生命周期：种子→发芽→开花→凋谢](./media/posts/shi-jian-liu-shi-shi-guan-cha/plant-lifecycle.jpg)见证一株植物的生灭，就是看见时间的形状
+![植物生命周期：种子→发芽→开花→凋谢](/media/posts/shi-jian-liu-shi-shi-guan-cha/plant-lifecycle.jpg)见证一株植物的生灭，就是看见时间的形状
 
 ## 二、城市也在呼吸
 
@@ -39,7 +38,7 @@ tags: ["Publii", "遷移"]
 
 **当主体可以看到事物的出现和消亡，他就能感受时间的流逝。**
 
-![老街变迁对比图](./media/posts/shi-jian-liu-shi-shi-guan-cha/street-change.jpg)同一条街，不同的时间。变化本身，就是时间的痕迹
+![老街变迁对比图](/media/posts/shi-jian-liu-shi-shi-guan-cha/street-change.jpg)同一条街，不同的时间。变化本身，就是时间的痕迹
 
 ## 三、为什么成年人的时间变快了？
 
@@ -63,7 +62,7 @@ tags: ["Publii", "遷移"]
 
 每天拍一张同样的风景，每周写一段日记，每月量一次身高。当变化被可视化，时间就有了刻度。
 
-![记录时间的方式：照片墙、日记、刻度尺](./media/posts/shi-jian-liu-shi-shi-guan-cha/time-recording.jpg)记录，是把无形的时间变成有形的记忆
+![记录时间的方式：照片墙、日记、刻度尺](/media/posts/shi-jian-liu-shi-shi-guan-cha/time-recording.jpg)记录，是把无形的时间变成有形的记忆
 
 **3. 创造"第一次"**
 
@@ -83,4 +82,4 @@ tags: ["Publii", "遷移"]
 
 从今天起，做一个观察者。看事物出现，看事物消亡。在生灭之间，你会看见时间最真实的样子。
 
-![一个人望着日落或日出](./media/posts/shi-jian-liu-shi-shi-guan-cha/sunset-observer.jpg)当你开始观察，时间就会为你停留
+![一个人望着日落或日出](/media/posts/shi-jian-liu-shi-shi-guan-cha/sunset-observer.jpg)当你开始观察，时间就会为你停留

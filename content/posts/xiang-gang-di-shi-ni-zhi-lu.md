@@ -1,11 +1,10 @@
 ---
-title: "香港迪士尼之旅 - 符伟能的网络日志"
+title: "香港迪士尼之旅"
 date: 2026-03-02T12:00:00+08:00
 draft: false
-tags: ["Publii", "遷移"]
 ---
 
-![](./media/posts/xiang-gang-di-shi-ni-zhi-lu/featured.jpg)憧憬之地的眼前化，是圆梦之旅还是梦想幻灭之旅？
+![](/media/posts/xiang-gang-di-shi-ni-zhi-lu/featured.jpg)憧憬之地的眼前化，是圆梦之旅还是梦想幻灭之旅？
 
 成年人的执着是完美走遍每一个自己制定的计划？还是能够可以再更加从容地面对自己不可控制的局面。更加塑造出“手掌上的沙，能流走的，都不属于自己”的从容心态态。
 

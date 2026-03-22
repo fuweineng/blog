@@ -1,76 +1,79 @@
-# Hugo 基础配置
-baseURL = 'https://blog.fuweineng.com/'
-languageCode = 'zh-hk'
-title = '符伟能的网络日志'
+baseURL = "https://blog.fuweineng.com/"
+languageCode = "zh-CN"
+title = "符伟能"
 theme = "blowfish"
 
-# 多语言配置
-defaultContentLanguage = 'zh-hk'
-disableLanguages = []
-
-# 其他配置
-enableEmoji = true
-summaryLength = 30
+defaultContentLanguage = "zh-cn"
+disableLanguages = ["en"]
 hasCJKLanguage = true
-buildDrafts = false
-buildFuture = false
+enableEmoji = true
+enableRobotsTXT = true
+summaryLength = 80
 
-# 分页
+[languages]
+  [languages.zh-cn]
+    languageCode = "zh-CN"
+    languageName = "简体中文"
+    weight = 1
+
 [pagination]
-  pagerSize = 10
+  pagerSize = 9
 
-# 分类法
 [taxonomies]
   tag = "tags"
   category = "categories"
-  author = "authors"
 
-# 输出格式
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
-# 作者配置
-[author]
-  name = "符伟能"
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
 
-# 主题参数
 [params]
-  # 基础配置
-  description = "從 Notion 導出的思想碎片合成而成的隨筆/散文集"
-  colorScheme = "blowfish"
-  defaultAppearance = "dark"
+  displayName = "简体中文"
+  isoCode = "zh-cn"
+  rtl = false
+  dateFormat = "2006-01-02"
+  description = "记录投资、社会观察、生活经验与长期主义思考。"
+  colorScheme = "autumn"
+  defaultAppearance = "light"
   autoSwitchAppearance = true
-  
-  # 功能开关
   enableSearch = true
   enableCodeCopy = true
   enableA11y = false
-  
-  # 主栏目
   mainSections = ["posts"]
-  
-  # 头部配置
+
+  [params.author]
+    name = "符伟能"
+    image = "img/avatar.svg"
+    headline = "写投资、社会观察、生活经验，也记录那些值得反复思考的问题。"
+    bio = "把零散念头整理成可回看的文字，希望它们既能提醒自己，也能帮助正在寻找答案的人。"
+    links = [
+      { github = "https://github.com/fuweineng" },
+      { rss = "/index.xml" },
+    ]
+
   [params.header]
     layout = "basic"
-  
-  # 页脚配置
+
   [params.footer]
     showMenu = true
     showCopyright = true
-    showThemeAttribution = true
+    showThemeAttribution = false
     showAppearanceSwitcher = true
     showScrollToTop = true
-  
-  # 首页配置
+
   [params.homepage]
-    layout = "card"
+    layout = "profile"
     showRecent = true
-    showRecentItems = 10
-    showMoreLink = false
+    showRecentItems = 8
+    showMoreLink = true
+    showMoreLinkDest = "/posts"
     cardView = true
-    cardViewScreenWidth = false
-  
-  # 文章配置
+    cardViewScreenWidth = true
+
   [params.article]
     showDate = true
     showDateUpdated = false
@@ -84,32 +87,69 @@ buildFuture = false
     showHeadingAnchors = true
     showPagination = true
     showRelatedContent = false
-    
-  # 列表页配置
+
   [params.list]
     showBreadcrumbs = false
     showHero = false
-  
-  # 语法高亮
+    cardView = true
+    cardViewScreenWidth = true
+
+  [params.taxonomy]
+    showHero = false
+    cardView = true
+
+  [params.term]
+    showHero = false
+    cardView = true
+
   [params.highlight]
     enable = true
-    theme = "github-dark"
-  
-  # 社交链接 (可选)
-  # [[params.social]]
-  #   name = "GitHub"
-  #   icon = "github"
-  #   url = "https://github.com/fuweineng"
+    theme = "github"
 
-# Markdown 渲染配置
+[[menu.main]]
+  name = "首页"
+  url = "/"
+  weight = 10
+
+[[menu.main]]
+  name = "文章"
+  pageRef = "posts"
+  weight = 20
+
+[[menu.main]]
+  name = "标签"
+  pageRef = "tags"
+  weight = 30
+
+[[menu.main]]
+  name = "关于"
+  pageRef = "about"
+  weight = 40
+
+[[menu.main]]
+  identifier = "github"
+  pre = "github"
+  url = "https://github.com/fuweineng"
+  weight = 50
+
+[[menu.footer]]
+  name = "GitHub"
+  url = "https://github.com/fuweineng"
+  weight = 10
+
+[[menu.footer]]
+  name = "RSS"
+  url = "/index.xml"
+  weight = 20
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
   [markup.highlight]
     codeFences = true
     guessSyntax = false
-    hl_Lines = ""
     lineNoStart = 1
     lineNos = false
     lineNumbersInTable = true

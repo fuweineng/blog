@@ -1,11 +1,10 @@
 ---
-title: "网络的通货膨胀 - 符伟能的网络日志"
+title: "网络的通货膨胀"
 date: 2026-03-02T12:00:00+08:00
 draft: false
-tags: ["Publii", "遷移"]
 ---
 
-![](./media/posts/wang-luo-de-tong-huo-peng-zhang/featured.jpg)最近看到，原来香港送龙骧包原来是不礼貌的事情。
+![](/media/posts/wang-luo-de-tong-huo-peng-zhang/featured.jpg)最近看到，原来香港送龙骧包原来是不礼貌的事情。
 
 为什么送礼不礼貌？因为价格太低了，不送超过2w的礼物，不如不送？
 

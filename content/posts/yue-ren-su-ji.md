@@ -1,11 +1,10 @@
 ---
-title: "阅人。塑己 - 符伟能的网络日志"
+title: "阅人。塑己"
 date: 2026-03-02T12:00:00+08:00
 draft: false
-tags: ["Publii", "遷移"]
 ---
 
-![](./media/posts/yue-ren-su-ji/featured.jpg)巴菲特：“所以我有一个小建议给你。
+![](/media/posts/yue-ren-su-ji/featured.jpg)巴菲特：“所以我有一个小建议给你。
 
 挑选出班级里你最钦佩的那个人，然后写下你为什么钦佩他们。列出一份品质清单——你不能提名自己。
 

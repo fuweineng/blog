@@ -1,11 +1,10 @@
 ---
-title: "并非是游戏 - 符伟能的网络日志"
+title: "并非是游戏"
 date: 2026-03-02T12:00:00+08:00
 draft: false
-tags: ["Publii", "遷移"]
 ---
 
-![](./media/posts/bing-fei-shi-you-xi/featured.jpg)字数 781，阅读大约需 4 分钟
+![](/media/posts/bing-fei-shi-you-xi/featured.jpg)字数 781，阅读大约需 4 分钟
 
 英雄联盟已经陪伴了超过十几年了。回忆过往是两个大学老友的诚挚邀请而入坑。
 

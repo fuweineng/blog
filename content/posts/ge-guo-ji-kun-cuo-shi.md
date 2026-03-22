@@ -1,11 +1,10 @@
 ---
-title: "各国济困措施 - 符伟能的网络日志"
+title: "各国济困措施"
 date: 2026-03-02T12:00:00+08:00
 draft: false
-tags: ["Publii", "遷移"]
 ---
 
-![](./media/posts/ge-guo-ji-kun-cuo-shi/featured.jpg)俄罗斯
+![](/media/posts/ge-guo-ji-kun-cuo-shi/featured.jpg)俄罗斯
 一由政府担保向企业贷款，三家大银行决定无息，让中小企业能继续生存，保障工资。
 二由政府补助，疫情所有消费场所免租金，待内阁批准。
 三莫斯科率先出炉补贴政策，失业者一次性发15000卢布，约二百美金。

@@ -1,11 +1,10 @@
 ---
-title: "本科學歷就夠出國工作、甚至長期居留？ 2025年10月1日正式实施！ - 符伟能的网络日志"
+title: "本科學歷就夠出國工作、甚至長期居留？ 2025年10月1日正式实施！"
 date: 2026-03-02T12:00:00+08:00
 draft: false
-tags: ["Publii", "遷移"]
 ---
 
-![](./media/posts/ben-ke-xue-li-jiu-gou-chu-guo-gong-zuoshen-zhi-chang-qi-ju-liu-2025nian-10yue-1ri-zheng-shi-shi-shi/featured.jpg)字数 2079，阅读大约需 11 分钟
+![](/media/posts/ben-ke-xue-li-jiu-gou-chu-guo-gong-zuoshen-zhi-chang-qi-ju-liu-2025nian-10yue-1ri-zheng-shi-shi-shi/featured.jpg)字数 2079，阅读大约需 11 分钟
 
 本科學歷就夠出國工作、甚至長期居留？ 2025年10月1日正式实施！
 

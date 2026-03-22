@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="title desc">
+  <title id="title">Fu Wei Neng avatar</title>
+  <desc id="desc">Warm abstract avatar with the initials FW.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff1d6" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="48" fill="url(#bg)" />
+  <circle cx="120" cy="92" r="44" fill="#7c2d12" opacity="0.9" />
+  <path d="M60 196c12-33 36-50 60-50s48 17 60 50" fill="#7c2d12" opacity="0.9" />
+  <text x="120" y="214" text-anchor="middle" font-size="42" font-family="Georgia, serif" fill="#fff7ed">FW</text>
+</svg>

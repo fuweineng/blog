@@ -1,11 +1,10 @@
 ---
-title: "互联网的驱动力开始因为AI而改变。 - 符伟能的网络日志"
+title: "互联网的驱动力开始因为AI而改变。"
 date: 2026-03-02T12:00:00+08:00
 draft: false
-tags: ["Publii", "遷移"]
 ---
 
-![](./media/posts/hu-lian-wang-de-qu-dong-li-kai-shi-yin-wei-aier-gai-bian/featured.jpg)过去25年的互联网由搜索驱动，由谷歌赞助；未来的互联网将由答案驱动，由大模型掌控。
+![](/media/posts/hu-lian-wang-de-qu-dong-li-kai-shi-yin-wei-aier-gai-bian/featured.jpg)过去25年的互联网由搜索驱动，由谷歌赞助；未来的互联网将由答案驱动，由大模型掌控。
 
 而未来最有价值的人，是能把 AI 的答案转化为现实的人。
 

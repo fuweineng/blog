@@ -1,11 +1,10 @@
 ---
-title: "确诊人数 与 大规模筛选 - 符伟能的网络日志"
+title: "确诊人数 与 大规模筛选"
 date: 2026-03-02T12:00:00+08:00
 draft: false
-tags: ["Publii", "遷移"]
 ---
 
-![](./media/posts/que-zhen-ren-shu-yu-da-gui-mo-shai-xuan/featured.jpg)没有症状就没有诊断
+![](/media/posts/que-zhen-ren-shu-yu-da-gui-mo-shai-xuan/featured.jpg)没有症状就没有诊断
 没有诊断就没有确诊
 没有确诊就没有患病
 

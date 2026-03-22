@@ -1,11 +1,10 @@
 ---
-title: "交易的底层逻辑：从价差博弈到人性博弈的深度论述 - 符伟能的网络日志"
+title: "交易的底层逻辑：从价差博弈到人性博弈的深度论述"
 date: 2026-03-02T12:00:00+08:00
 draft: false
-tags: ["Publii", "遷移"]
 ---
 
-![交易的底层逻辑](./media/posts/jiao-yi-de-di-ceng-luo-ji/featured.jpg)
+![交易的底层逻辑](/media/posts/jiao-yi-de-di-ceng-luo-ji/featured.jpg)
 在金融交易的丛林中，新手往往死于对“确定性”的追求，而高手则生于对“概率”的敬畏。要建立一个完整的交易灵魂，必须从理解价差的来源开始，最终归于对仓位的克制。
 
 ## 第一章：价差的本源——能量的不平衡

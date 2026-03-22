@@ -1,8 +1,7 @@
 ---
-title: "Notion 碎片合成文集 - 小明的博客"
+title: "Notion 碎片合成文集"
 date: 2026-03-02T12:00:00+08:00
 draft: false
-tags: ["Publii", "遷移"]
 ---
 
 # 📝 Notion 碎片合成文集
