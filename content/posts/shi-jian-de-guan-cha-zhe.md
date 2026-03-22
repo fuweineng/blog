@@ -2,9 +2,8 @@
 title: "时间的观察者"
 date: 2018-09-22T12:30:00+08:00
 draft: false
-tags: ["时间，观察，生活"]
+tags: ["时间", "观察", "生活"]
 ---
-
 ![配图](/media/notion-84.jpg)
 
 

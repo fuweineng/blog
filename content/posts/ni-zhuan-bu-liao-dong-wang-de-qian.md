@@ -2,8 +2,8 @@
 title: "你賺不了懂王的錢"
 date: 2026-03-02T12:00:00+08:00
 draft: false
+tags: ["学成功"]
 ---
-
 ![](/media/posts/ni-zhuan-bu-liao-dong-wang-de-qian/featured.jpg)1、行業興旺離不開成功教育市場的人
 
 還記得小時候，漢堡包加可樂並不是每個人都會去消費。這並非因為消費水平的問題，而是許多人因為不習慣這種兩片麵包夾著生菜的奇怪口感。

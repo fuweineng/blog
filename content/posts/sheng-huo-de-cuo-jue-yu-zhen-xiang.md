@@ -2,9 +2,8 @@
 title: "生活的错觉与真相"
 date: 2018-09-22T13:57:00+08:00
 draft: false
-tags: ["心理，生活，认知"]
+tags: ["心理", "生活", "认知"]
 ---
-
 ![配图](/media/notion-69.jpg)
 
 ![配图](/media/notion-197.jpg)

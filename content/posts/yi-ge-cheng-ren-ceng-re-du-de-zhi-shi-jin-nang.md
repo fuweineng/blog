@@ -2,8 +2,8 @@
 title: "一个承认蹭热度的知识锦囊"
 date: 2026-03-02T12:00:00+08:00
 draft: false
+tags: ["噪音"]
 ---
-
 ![](/media/posts/yi-ge-cheng-ren-ceng-re-du-de-zhi-shi-jin-nang/featured.jpg) 
 
 > 字数 1636，阅读大约需 9 分钟

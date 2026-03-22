@@ -2,9 +2,8 @@
 title: "大人的鸡汤"
 date: 2018-09-22T12:30:00+08:00
 draft: false
-tags: ["人生，智慧，成长"]
+tags: ["人生", "智慧", "成长"]
 ---
-
 ![配图](/media/notion-80.jpg)
 
 ![配图](/media/notion-101.jpg)

@@ -1,0 +1,51 @@
+# Legacy Publii article URLs
+/ben-ke-xue-li-jiu-gou-chu-guo-gong-zuoshen-zhi-chang-qi-ju-liu-2025nian-10yue-1ri-zheng-shi-shi-shi.html /posts/ben-ke-xue-li-jiu-gou-chu-guo-gong-zuoshen-zhi-chang-qi-ju-liu-2025nian-10yue-1ri-zheng-shi-shi-shi/ 301
+/bing-fei-shi-you-xi.html /posts/bing-fei-shi-you-xi/ 301
+/bo-yi.html /posts/bo-yi/ 301
+/da-shi-ji-jiang-zhuan-yi.html /posts/da-shi-ji-jiang-zhuan-yi/ 301
+/ge-guo-ji-kun-cuo-shi.html /posts/ge-guo-ji-kun-cuo-shi/ 301
+/hu-lian-wang-de-qu-dong-li-kai-shi-yin-wei-aier-gai-bian.html /posts/hu-lian-wang-de-qu-dong-li-kai-shi-yin-wei-aier-gai-bian/ 301
+/jia-su-wu-deng-yu-kuai.html /posts/jia-su-wu-deng-yu-kuai/ 301
+/jin-ri-ta-men-shuo-ni-men-yao-dao-nian.html /posts/jin-ri-ta-men-shuo-ni-men-yao-dao-nian/ 301
+/ke-yi-chong-fu-de-shi-qing.html /posts/ke-yi-chong-fu-de-shi-qing/ 301
+/lesslessyi-yuan-yu-er-yuan-zhi-jiangreatergreater.html /posts/lesslessyi-yuan-yu-er-yuan-zhi-jiangreatergreater/ 301
+/mei-ge-gu-shidu-xu-yao-si-ge-jiao-se.html /posts/mei-ge-gu-shidu-xu-yao-si-ge-jiao-se/ 301
+/mo-xing-qian-ru.html /posts/mo-xing-qian-ru/ 301
+/ni-zhuan-bu-liao-dong-wang-de-qian.html /posts/ni-zhuan-bu-liao-dong-wang-de-qian/ 301
+/pc-qing-huai-ruan-jian-tui-jian.html /posts/pc-qing-huai-ruan-jian-tui-jian/ 301
+/publii-shi-yi-ge-hao-de-ruan-jian-ma.html /posts/publii-shi-yi-ge-hao-de-ruan-jian-ma/ 301
+/qi-shang-shen-han-zheqi-xia-bi-fo-lao.html /posts/qi-shang-shen-han-zheqi-xia-bi-fo-lao/ 301
+/que-zhen-ren-shu-yu-da-gui-mo-shai-xuan.html /posts/que-zhen-ren-shu-yu-da-gui-mo-shai-xuan/ 301
+/shang-hua-tu-jian.html /posts/shang-hua-tu-jian/ 301
+/shi-shi-wei-bi-du-you-yuan-yinzhi-zhao-yu-xun-zhaozhi-hui-tu-zeng-kun-rao-bu-ru-tan-ran-jie-shouzhuan-er-si-kao-dui-ce.html /posts/shi-shi-wei-bi-du-you-yuan-yinzhi-zhao-yu-xun-zhaozhi-hui-tu-zeng-kun-rao-bu-ru-tan-ran-jie-shouzhuan-er-si-kao-dui-ce/ 301
+/wai-ke-shi-hai-kang-wei-shi-de-xiong-mai-she-xiang-tou.html /posts/wai-ke-shi-hai-kang-wei-shi-de-xiong-mai-she-xiang-tou/ 301
+/wang-luo-zhe-teng-ji-luyi.html /posts/wang-luo-zhe-teng-ji-luyi/ 301
+/yi-ge-cheng-ren-ceng-re-du-de-zhi-shi-jin-nang.html /posts/yi-ge-cheng-ren-ceng-re-du-de-zhi-shi-jin-nang/ 301
+/zhi-neng-men-jin-jie-xian-fang-fa-2.html /posts/zhi-neng-men-jin-jie-xian-fang-fa-2/ 301
+
+# Legacy Publii taxonomy and author URLs
+/authors /posts/ 301
+/authors/ /posts/ 301
+/authors/index.html /posts/ 301
+/tags/bo-lan /tags/波澜/ 301
+/tags/bo-lan/ /tags/波澜/ 301
+/tags/bo-lan/index.html /tags/波澜/ 301
+/tags/wang-luo-ji-shu /tags/网络技术/ 301
+/tags/wang-luo-ji-shu/ /tags/网络技术/ 301
+/tags/wang-luo-ji-shu/index.html /tags/网络技术/ 301
+/tags/xue-cheng-gong /tags/学成功/ 301
+/tags/xue-cheng-gong/ /tags/学成功/ 301
+/tags/xue-cheng-gong/index.html /tags/学成功/ 301
+/tags/zao-yin /tags/噪音/ 301
+/tags/zao-yin/ /tags/噪音/ 301
+/tags/zao-yin/index.html /tags/噪音/ 301
+/authors/fu-wei-neng /posts/ 301
+/authors/fu-wei-neng/ /posts/ 301
+/authors/fu-wei-neng/index.html /posts/ 301
+/authors/fu-wei-neng/page/:page /posts/page/:page/ 301
+/authors/fu-wei-neng/page/:page/ /posts/page/:page/ 301
+/authors/fu-wei-neng/page/:page/index.html /posts/page/:page/ 301
+
+# Legacy feed URLs
+/feed.xml /index.xml 301
+/feed.json /index.json 301

@@ -2,9 +2,8 @@
 title: "所有人都在赌明天"
 date: 2018-07-01T00:23:00+08:00
 draft: false
-tags: ["社会，阶层，焦虑"]
+tags: ["社会", "阶层", "焦虑"]
 ---
-
 ![配图](/media/notion-199.jpg)
 
 ![配图](/media/notion-53.png)

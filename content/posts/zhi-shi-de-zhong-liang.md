@@ -2,9 +2,8 @@
 title: "知识的重量"
 date: 2022-08-19T17:06:00+08:00
 draft: false
-tags: ["知识，学习，成长"]
+tags: ["知识", "学习", "成长"]
 ---
-
 ![配图](/media/notion-188.jpg)
 
 

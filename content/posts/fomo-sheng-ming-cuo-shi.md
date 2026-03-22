@@ -2,9 +2,8 @@
 title: "FOMO：害怕错失的背后是什么"
 date: 2022-08-15T03:02:00+08:00
 draft: false
-tags: ["交易，心理，投资"]
+tags: ["交易", "心理", "投资"]
 ---
-
 ![配图](/media/notion-206.jpg)
 
 ![配图](/media/notion-169.jpg)

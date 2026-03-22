@@ -2,9 +2,8 @@
 title: "交易的本质"
 date: 2022-08-14T02:15:00+08:00
 draft: false
-tags: ["交易，投资，心理"]
+tags: ["交易", "投资", "心理"]
 ---
-
 ![配图](/media/notion-206.jpg)
 
 

@@ -2,9 +2,8 @@
 title: "销售的本质"
 date: 2022-08-14T02:15:00+08:00
 draft: false
-tags: ["销售，职场，人性"]
+tags: ["销售", "职场", "人性"]
 ---
-
 ![配图](/media/notion-60.jpg)
 
 

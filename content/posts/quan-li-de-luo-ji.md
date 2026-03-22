@@ -2,9 +2,8 @@
 title: "权力的逻辑"
 date: 2022-11-27T03:09:00+08:00
 draft: false
-tags: ["权力，社会，人性"]
+tags: ["权力", "社会", "人性"]
 ---
-
 ![配图](/media/notion-87.jpg)
 
 

@@ -2,9 +2,8 @@
 title: "阶层的真相"
 date: 2022-08-14T02:15:00+08:00
 draft: false
-tags: ["阶层，社会，思考"]
+tags: ["阶层", "社会", "思考"]
 ---
-
 ![配图](/media/notion-187.jpg)
 
 

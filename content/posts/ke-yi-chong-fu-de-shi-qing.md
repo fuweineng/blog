@@ -2,8 +2,8 @@
 title: "可以重复的事情"
 date: 2026-03-02T12:00:00+08:00
 draft: false
+tags: ["学成功"]
 ---
-
 ![](/media/posts/ke-yi-chong-fu-de-shi-qing/featured.jpg)在自然界，等待时机的捕食者，时机不到便只能挨饿； 而无需多谋的捕食者，反倒能不断进食。
 
 简单，才能持续。

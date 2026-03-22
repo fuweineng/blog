@@ -2,9 +2,8 @@
 title: "世界的真相"
 date: 2018-06-16T11:26:00+08:00
 draft: false
-tags: ["世界，真相，思考"]
+tags: ["世界", "真相", "思考"]
 ---
-
 ![配图](/media/notion-207.jpg)
 
 ![配图](/media/notion-116.jpg)

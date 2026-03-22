@@ -2,9 +2,8 @@
 title: "中医与农历"
 date: 2018-12-27T12:21:00+08:00
 draft: false
-tags: ["文化，传统，思考"]
+tags: ["文化", "传统", "思考"]
 ---
-
 ![配图](/media/notion-85.jpg)
 
 ![配图](/media/notion-94.jpg)

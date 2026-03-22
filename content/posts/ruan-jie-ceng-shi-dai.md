@@ -2,9 +2,8 @@
 title: "软阶层时代"
 date: 2022-08-14T02:15:00+08:00
 draft: false
-tags: ["经济，社会，阶层"]
+tags: ["经济", "社会", "阶层"]
 ---
-
 ![配图](/media/notion-79.jpg)
 
 ![配图](/media/notion-182.jpg)

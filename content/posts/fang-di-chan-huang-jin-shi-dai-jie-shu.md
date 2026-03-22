@@ -2,9 +2,8 @@
 title: "房地产的黄金时代一去不复返了"
 date: 2022-08-14T02:10:00+08:00
 draft: false
-tags: ["经济，房地产，趋势"]
+tags: ["经济", "房地产", "趋势"]
 ---
-
 ![配图](/media/notion-179.jpg)
 
 ![配图](/media/notion-115.gif)

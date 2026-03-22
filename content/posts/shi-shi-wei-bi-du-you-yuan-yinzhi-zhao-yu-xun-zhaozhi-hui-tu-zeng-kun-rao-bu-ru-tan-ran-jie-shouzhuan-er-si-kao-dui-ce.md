@@ -2,8 +2,8 @@
 title: "“世事未必都有原因，执着于寻找，只会徒增困扰。不如坦然接受，转而思考对策。”"
 date: 2026-03-02T12:00:00+08:00
 draft: false
+tags: ["学成功"]
 ---
-
 ![](/media/posts/shi-shi-wei-bi-du-you-yuan-yinzhi-zhao-yu-xun-zhaozhi-hui-tu-zeng-kun-rao-bu-ru-tan-ran-jie-shouzhuan-er-si-kao-dui-ce/featured.jpg)字数 709，阅读大约需 4 分钟
 
 人脑本能为一切事物寻找背后原因，理解因果关系，再推理预测，这种能力是极强生存优势。
