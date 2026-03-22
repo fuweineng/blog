@@ -39,11 +39,12 @@ summaryLength = 80
   description = "记录投资、社会观察、生活经验与长期主义思考。"
   colorScheme = "autumn"
   defaultAppearance = "light"
-  autoSwitchAppearance = true
+  autoSwitchAppearance = false
   enableSearch = true
   enableCodeCopy = true
   enableA11y = false
   mainSections = ["posts"]
+  highlightCurrentMenuArea = true
 
   [params.author]
     name = "符伟能"
@@ -56,7 +57,7 @@ summaryLength = 80
     ]
 
   [params.header]
-    layout = "basic"
+    layout = "fixed-fill-blur"
 
   [params.footer]
     showMenu = true
@@ -66,13 +67,13 @@ summaryLength = 80
     showScrollToTop = true
 
   [params.homepage]
-    layout = "profile"
+    layout = "custom"
     showRecent = true
-    showRecentItems = 8
+    showRecentItems = 6
     showMoreLink = true
     showMoreLinkDest = "/posts"
     cardView = true
-    cardViewScreenWidth = true
+    cardViewScreenWidth = false
 
   [params.article]
     showDate = true
@@ -92,7 +93,8 @@ summaryLength = 80
     showBreadcrumbs = false
     showHero = false
     cardView = true
-    cardViewScreenWidth = true
+    cardViewScreenWidth = false
+    showSummary = true
 
   [params.taxonomy]
     showHero = false

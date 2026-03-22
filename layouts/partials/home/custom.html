@@ -1,0 +1,134 @@
+{{ $disableImageOptimization := .Site.Params.disableImageOptimization | default false }}
+{{ $posts := where site.RegularPages "Section" "in" (.Site.Params.mainSections | default (slice "posts")) }}
+{{ $sortedPosts := sort $posts "Date" "desc" }}
+{{ $latestPost := index $sortedPosts 0 }}
+{{ $curatedPaths := slice
+  "/posts/shi-jian-de-guan-cha-zhe/"
+  "/posts/jiao-yi-de-ben-zhi/"
+  "/posts/jie-ceng-de-zhen-xiang/"
+  "/posts/sheng-ming-shi-yu-bu-zai-qu-yue/"
+}}
+
+{{ $authorImage := "" }}
+{{ with .Site.Params.Author.image }}
+  {{ if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
+    {{ $authorImage = resources.GetRemote . }}
+  {{ else }}
+    {{ $authorImage = resources.Get . }}
+  {{ end }}
+{{ end }}
+
+<div class="home-custom">
+  <section class="home-hero">
+    <div class="home-hero__content">
+      <span class="home-eyebrow">个人博客 · 长期写作</span>
+      <h1 class="home-title">{{ .Title }}</h1>
+      <p class="home-lead">{{ .Site.Params.Author.headline }}</p>
+
+      <div class="home-actions">
+        <a class="home-button home-button--primary" href="{{ "/posts/" | relLangURL }}">开始阅读</a>
+        <a class="home-button home-button--ghost" href="{{ "/about/" | relLangURL }}">了解我</a>
+      </div>
+
+      <div class="home-topics" aria-label="写作主题">
+        <span class="home-topic">投资与交易</span>
+        <span class="home-topic">社会观察</span>
+        <span class="home-topic">生活经验</span>
+        <span class="home-topic">长期主义</span>
+      </div>
+    </div>
+
+    <aside class="home-hero__panel">
+      <div class="home-profile">
+        {{ with $authorImage }}
+          {{ $final := . }}
+          {{ if not (or $disableImageOptimization (eq .MediaType.SubType "svg")) }}
+            {{ $final = .Fill (print "240x240 q" ( $.Site.Params.Author.imagequality | default "96" )) }}
+          {{ end }}
+          <img
+            class="home-profile__avatar"
+            src="{{ $final.RelPermalink }}"
+            alt="{{ $.Site.Params.Author.name | default `Author` }}">
+        {{ end }}
+
+        <div class="home-profile__meta">
+          <h2>{{ .Site.Params.Author.name | default .Site.Title }}</h2>
+          <p>{{ .Site.Params.Author.bio }}</p>
+        </div>
+      </div>
+
+      <div class="home-stats">
+        <div class="home-stat">
+          <span class="home-stat__label">文章</span>
+          <strong>{{ len $posts }}</strong>
+        </div>
+        <div class="home-stat">
+          <span class="home-stat__label">标签</span>
+          <strong>{{ len site.Taxonomies.tags }}</strong>
+        </div>
+        <div class="home-stat">
+          <span class="home-stat__label">最近更新</span>
+          <strong>{{ with $latestPost }}{{ .Date.Format "2006-01-02" }}{{ end }}</strong>
+        </div>
+      </div>
+
+      <div class="home-profile__links">
+        {{ partialCached "author-links.html" . }}
+      </div>
+    </aside>
+  </section>
+
+  <section class="home-grid">
+    <article class="home-panel home-panel--manifesto">
+      <div class="home-panel__header">
+        <span class="home-panel__kicker">写作说明</span>
+        <h2>慢一点，写能留下来的东西</h2>
+      </div>
+      <div class="home-panel__body prose dark:prose-invert">
+        {{ .Content }}
+      </div>
+    </article>
+
+    <article class="home-panel">
+      <div class="home-panel__header">
+        <span class="home-panel__kicker">推荐入口</span>
+        <h2>从这几篇开始认识这个博客</h2>
+      </div>
+      <div class="home-curated">
+        {{ range $path := $curatedPaths }}
+          {{ with site.GetPage $path }}
+            <a class="home-curated__item" href="{{ .RelPermalink }}">
+              <span class="home-curated__title">{{ .Title }}</span>
+              <span class="home-curated__meta">{{ .Date.Format "2006-01-02" }}</span>
+            </a>
+          {{ end }}
+        {{ end }}
+      </div>
+    </article>
+
+    <article class="home-panel home-panel--compact">
+      <div class="home-panel__header">
+        <span class="home-panel__kicker">浏览方式</span>
+        <h2>按你喜欢的路径进入</h2>
+      </div>
+      <div class="home-links">
+        <a class="home-links__item" href="{{ "/posts/" | relLangURL }}">
+          <strong>文章列表</strong>
+          <span>按时间浏览全部文章</span>
+        </a>
+        <a class="home-links__item" href="{{ "/tags/" | relLangURL }}">
+          <strong>标签索引</strong>
+          <span>按主题快速找到内容</span>
+        </a>
+        <a class="home-links__item" href="{{ "/about/" | relLangURL }}">
+          <strong>关于作者</strong>
+          <span>了解这个站点从哪里来</span>
+        </a>
+      </div>
+    </article>
+  </section>
+
+  <section class="home-recent">
+    {{ partial "recent-articles/main.html" . }}
+  </section>
+</div>
