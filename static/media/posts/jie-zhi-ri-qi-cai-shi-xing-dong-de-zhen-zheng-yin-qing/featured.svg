@@ -1,0 +1,23 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1E293B"/>
+      <stop offset="1" stop-color="#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FDE68A"/>
+      <stop offset="1" stop-color="#FB7185"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" rx="32" fill="url(#bg)"/>
+  <circle cx="955" cy="140" r="92" fill="#FFFFFF" fill-opacity="0.06"/>
+  <circle cx="168" cy="494" r="120" fill="#FFFFFF" fill-opacity="0.05"/>
+  <path d="M770 150H930C930 218 872 235 850 272C828 309 828 321 850 358C872 395 930 412 930 480H770C770 412 828 395 850 358C872 321 872 309 850 272C828 235 770 218 770 150Z" fill="#FFFFFF" fill-opacity="0.12" stroke="#FFFFFF" stroke-opacity="0.5" stroke-width="8"/>
+  <path d="M800 190H900C892 222 874 236 860 252C846 268 846 290 850 300C854 290 854 268 840 252C826 236 808 222 800 190Z" fill="url(#glass)" fill-opacity="0.95"/>
+  <path d="M800 440H900C892 408 874 394 860 378C846 362 846 340 850 330C854 340 854 362 840 378C826 394 808 408 800 440Z" fill="url(#glass)" fill-opacity="0.78"/>
+  <path d="M850 300V332" stroke="#FDE68A" stroke-width="6" stroke-linecap="round"/>
+  <text x="90" y="215" fill="#F8FAFC" font-size="62" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-weight="700">截止日期，才是行动真正的引擎</text>
+  <text x="90" y="300" fill="#E2E8F0" font-size="30" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans CJK SC, sans-serif">很多事做不成，不是因为难，而是因为它还可以再拖一天。</text>
+  <text x="90" y="350" fill="#E2E8F0" font-size="30" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans CJK SC, sans-serif">真正推动人行动的，往往不是道理，而是时间开始收口。</text>
+  <text x="90" y="525" fill="#CBD5E1" font-size="24" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans CJK SC, sans-serif">blog.fuweineng.com</text>
+</svg>
