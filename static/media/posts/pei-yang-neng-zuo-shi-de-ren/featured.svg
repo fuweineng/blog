@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <rect width="800" height="400" fill="#f5f0e8"/>
+  <text x="400" y="180" font-size="36" font-weight="bold" fill="#2c2c2c" text-anchor="middle" font-family="serif">做事不如</text>
+  <text x="400" y="240" font-size="36" font-weight="bold" fill="#2c2c2c" text-anchor="middle" font-family="serif">培养做事的人</text>
+  <line x1="300" y1="270" x2="500" y2="270" stroke="#aaa" stroke-width="1"/>
+  <circle cx="360" cy="320" r="6" fill="#888"/>
+  <circle cx="400" cy="320" r="6" fill="#888"/>
+  <circle cx="440" cy="320" r="6" fill="#888"/>
+</svg>
